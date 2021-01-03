@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
     vendor/motorola/shamu/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/motorola/shamu/proprietary/bin/sensors.qcom:$(TARGET_COPY_OUT_SYSTEM)/bin/sensors.qcom \
+    vendor/motorola/shamu/proprietary/bin/stm401:$(TARGET_COPY_OUT_SYSTEM)/bin/stm401 \
     vendor/motorola/shamu/proprietary/bin/tcmd_mini:$(TARGET_COPY_OUT_SYSTEM)/bin/tcmd_mini \
     vendor/motorola/shamu/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/motorola/shamu/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
