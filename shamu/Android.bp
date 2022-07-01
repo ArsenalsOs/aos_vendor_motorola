@@ -76,6 +76,17 @@ android_app_import {
 }
 
 android_app_import {
+        name: "ims",
+        owner: "motorola",
+        apk: "proprietary/app/ims/ims.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
+android_app_import {
 	name: "CQATest",
 	owner: "motorola",
 	apk: "proprietary/priv-app/CQATest/CQATest.apk",
@@ -173,4 +184,3 @@ android_app_import {
 	},
 	privileged: true,
 }
-
